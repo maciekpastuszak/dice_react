@@ -1,0 +1,9 @@
+.fas {
+    color: blue;
+    font-size: 5rem;
+}
+
+.dice {
+display: flex;
+justify-content: center;
+}

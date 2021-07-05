@@ -1,10 +1,11 @@
 import React, { Component } from 'react'
+import './Die.css'
 
-export default class h1 extends Component {
+export default class Die extends Component {
     render() {
         return (
-            <div>
-                <h1>Dice</h1>
+            <div className="dice">
+                <h1><i className="fas fa-dice-one"></i></h1>
             </div>
         )
     }

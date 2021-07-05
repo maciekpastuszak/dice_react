@@ -8,6 +8,7 @@ export default class RollDice extends Component {
                 <Die />
                 <Die />
                 <button>Roll Dice!</button>
+                
             </div>
         )
     }
