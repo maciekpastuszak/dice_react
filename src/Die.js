@@ -5,7 +5,8 @@ export default class Die extends Component {
     render() {
         return (
             <div className="dice">
-            <i className={`fas fa-dice-${this.props.face}`}></i>
+            <i className={`die fas fa-dice-${this.props.face} ${this.props.rolling &&
+          "shaking"}`}></i>
             </div>
         )
     }
