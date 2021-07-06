@@ -1,9 +1,15 @@
 .fas {
-    color: blue;
-    font-size: 5rem;
+    color:cornflowerblue;
+    font-size: 10rem;
+    padding-top: 20px;
 }
 
 .dice {
-display: flex;
+display: inline;
+margin: 20px;
 justify-content: center;
+}
+
+.button {
+    margin: 20px;
 }
